@@ -3,8 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
+    "build": "node init && nuxt build",
+    "dev": "node init && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -15,7 +15,9 @@
     "@supabase/supabase-js": "^2.108.2",
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1",
+    "dotenv": "^8.2.0",
     "jsonwebtoken": "^9.0.3",
+    "node-fetch": "^3.3.2",
     "nuxt": "^4.0.3",
     "pinia": "^3.0.4",
     "swiper": "^11.2.10",
